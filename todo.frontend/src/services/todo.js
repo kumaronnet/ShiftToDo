@@ -1,4 +1,20 @@
 import { ActionCreators } from "../redux/todoReducer";
+import * as axios from 'axios';
+
+const axiosInstance = axios.create({
+    baseURL: 'http://localhost:5001/todos',
+})
+
+export const ExportTodos = async (dispatch, todos) => {
+    try {
+            // api call
+             await axiosInstance.post(todos);
+    } catch {
+        console.log("Error!");
+    }
+}
+
+
 
 export const GetTodos = async (dispatch) => {
     try {
