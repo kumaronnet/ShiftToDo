@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qGvy+9HFuSyYommAklGaAKHErH9+Pa9Z9NmuZD2N5MRGk92K+Obq9+4f5fax98DK4NNriUUtDsUIaiYhkq45ag==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\Todos.WebApi\\Todos.WebApi\\Todos.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kumar\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.18\\microsoft.netcore.app.host.win-x64.3.1.18.nupkg.sha512"
+  ],
+  "logs": []
+}
